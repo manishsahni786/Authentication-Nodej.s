@@ -7,9 +7,9 @@ const userRoute = require('./Routes/user')
 
 const app = express()
 
-// app.get('/',(req,res)=>{
-//     res.json('Hey there !')
-// })
+app.get('/',(req,res)=>{
+    res.json('Hey there !')
+})
 
 // Set EJS as the view engine
 // app.set('view engine', 'ejs');

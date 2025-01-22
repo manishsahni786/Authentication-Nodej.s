@@ -73,8 +73,7 @@ async function handleUserLogin(req, res) {
 
     let token = await generateToken(req, res);
     res.json({ 
-      msg: 'Login successfully',
-      token: token
+      msg: 'Login successfully'
      });
   } catch (error) {
     console.error('Login error:', error);
